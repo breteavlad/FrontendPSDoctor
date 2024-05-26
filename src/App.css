@@ -1,0 +1,34 @@
+.app-container {
+  display: flex;
+  flex-direction: column; /* Set flex direction to column */
+  align-items: center; /* Center items horizontally */
+}
+
+.options-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 100%; /* Extend the navbar to full width */
+}
+
+.option-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.option-card:hover {
+  background-color: #e0e0e0;
+}
